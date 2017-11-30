@@ -86,3 +86,28 @@ input[type="submit"]:hover {
 	border: 1px solid #c6c6c6;
 	color:#222;
 }
+.apps {
+	width:auto;
+	height:auto;
+	display:block;
+	max-width:50px;
+	max-height:25px;
+}
+.notification {
+	width:auto;
+	height:auto;
+	display:block;
+	max-width:50px;
+	max-height:25px;
+	background:#f2f2f2;
+	border:#f2f2f2;
+	color:#757575;
+	cursor:default;
+}
+
+.notification:hover {
+	box-shadow:0 1px 1px rgba(0,0,0,0.1);
+	background:#f8f8f8;
+	border:1px solid #c6c6c6;
+	color:#222;
+}
