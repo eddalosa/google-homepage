@@ -1,0 +1,58 @@
+.search {
+	position:fixed;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	
+}
+.gLogo {
+            position:fixed;
+            top:35%;
+            left:50%;
+            transform: translate(-50%, -50%);
+}
+body {
+	text-size:small;
+	margin:0;
+}
+ul.top-navbar {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	top:0;
+
+}
+ul.bottom-navbar {
+	list-style-type: none;
+       	margin: 0; 
+       	padding:0;        
+       	bottom:0;
+	width:100%;
+	position:fixed;
+}
+
+li {
+	display:inline;
+}
+a:link {
+	text-decoration:none;
+}
+a:visited {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+a:active {
+	text-decoration:none;
+}
+input[type=text] {
+	width: 500px;
+	height:25px;
+	padding:4px 8px;
+	color:#747862;
+	margin-top:0px;
+}
+.searchButtonHolder{
+	text-align:center;
+}
