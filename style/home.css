@@ -1,10 +1,19 @@
 .search {
+	width:584px;
+	height:44px;
+	border:solid 1px #d0caca;
+	margin: 0 auto;
+	border-radius:3px;
+	box-shadow:0px 2px 1px 0px rgba(1,1,0,.15);
+	
+}
+.search-container {
 	position:fixed;
 	top:50%;
 	left:50%;
 	transform: translate(-50%, -50%);
-	
 }
+
 .gLogo {
             position:fixed;
             top:35%;
@@ -40,6 +49,7 @@ footer {
 li {
 	display:inline;
 	padding-right:30px;
+	padding-left:30px;
 }
 a:link {
 	text-decoration:none;
@@ -61,15 +71,11 @@ a:active {
 
 }
 input[type=text] {
-	border-radius: 0;
-	color: #222222;
-	padding:1.3rem 5rem, 1.3rem 5rem;
-	width:100;
-	border-width:0px;
-	font-size:1.6rem;
-	margin-left:0.6rem;
-	box-sizing:border-box;
-	box-shadow: rgba(0,0,0,0.16) 0px 2px 2px 0px, rgba(0,0,0,0.08) 0px 0px 0px 1px;
+	border: none 0;
+	width:525px;
+	height:34px;
+	font-size:1em;
+	outline:none;
 }
 input[type=text]:hover {
 	border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
@@ -81,9 +87,11 @@ input[type=text]:focus {
 .searchButtonHolder{
 	text-align:center;
 }
+
 .swahili {
 	text-align:center;
 }
+
 input[type="submit"] {
 	border-radius:2px;
 	background:#f2f2f2;
@@ -96,12 +104,14 @@ input[type="submit"] {
 	padding:0 16px;
 	height:36px;
 }
+
 input[type="submit"]:hover {
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 	background:#f8f8f8;
 	border: 1px solid #c6c6c6;
 	color:#222;
 }
+
 .apps {
 	width:auto;
 	height:auto;
@@ -109,6 +119,7 @@ input[type="submit"]:hover {
 	max-width:50px;
 	max-height:25px;
 }
+
 .notification {
 	width:auto;
 	height:auto;
@@ -121,15 +132,14 @@ input[type="submit"]:hover {
 	cursor:default;
 }
 
-.notification:hover {
-	box-shadow:0 1px 1px rgba(0,0,0,0.1);
-	background:#f8f8f8;
-	border:1px solid #c6c6c6;
-	color:#222;
-}
 .loc {
 	padding: 10px 35px 10px 35px;
 	border:1px solid #e4e4e4;
 	border-left:0;
 	border-right:0;
+}
+
+form {
+	display:inline-block;
+	padding:4px 0 0 15px;
 }
